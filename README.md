@@ -7,6 +7,7 @@ Untuk optimasi Bubble sort, bisa menambahkan flag atau ketentuan untuk berhenti 
 Binary insertion sort merupakan algortima yang melakukan pencarian terhadap biner (0 & 1) untuk mencari posisi yang pas sehingga array bisa terurutkan
 
 Untuk optimasi binary insertion sort, cukup menggunakan binary insertions sort dalam jumlah array yang kecil. Jika jumlah arraynya besar, bisa mengganti ke algoritma sorting yang lebih mumpuni
+
 Contoh:
 public static void main(String[] args) {
 int[] data = {64, 34, 25, 12, 22, 11, 90};
