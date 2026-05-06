@@ -9,8 +9,9 @@ Binary insertion sort merupakan algortima yang melakukan pencarian terhadap bine
 Untuk optimasi binary insertion sort, cukup menggunakan binary insertions sort dalam jumlah array yang kecil. Jika jumlah arraynya besar, bisa mengganti ke algoritma sorting yang lebih mumpuni
 
 Contoh:
-public static void main(String[] args) {
-int[] data = {64, 34, 25, 12, 22, 11, 90};
+    
+    public static void main(String[] args) {
+    int[] data = {64, 34, 25, 12, 22, 11, 90};
 
     System.out.println("Original Array: " + java.util.Arrays.toString(data));
 
@@ -18,5 +19,5 @@ int[] data = {64, 34, 25, 12, 22, 11, 90};
     bubbleSort(data);
 
     System.out.println("Sorted Array: " + java.util.Arrays.toString(data));
+    }
 
-}
